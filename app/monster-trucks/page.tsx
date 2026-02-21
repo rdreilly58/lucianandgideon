@@ -1,15 +1,13 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
-const BASE_URL = 'https://lucianandgideon-coloring-pages.s3.us-east-1.amazonaws.com';
-
 const monsterTruckPages = [
-  { id: '1', title: 'Hot Wheels Racer', imageUrl: `${BASE_URL}/monster-trucks/truck-1.png` },
-  { id: '2', title: 'Monster Truck Jump', imageUrl: `${BASE_URL}/monster-trucks/truck-2.png` },
-  { id: '3', title: 'Big Wheel Truck', imageUrl: `${BASE_URL}/monster-trucks/truck-3.png` },
-  { id: '4', title: 'Racing Hot Wheels', imageUrl: `${BASE_URL}/monster-trucks/truck-4.png` },
-  { id: '5', title: 'Monster Jam', imageUrl: `${BASE_URL}/monster-trucks/truck-5.png` },
-  { id: '6', title: 'Cool Race Car', imageUrl: `${BASE_URL}/monster-trucks/truck-6.png` },
+  { id: '1', title: 'Hot Wheels Racer', imageUrl: '/coloring-svg/truck1.svg' },
+  { id: '2', title: 'Monster Truck Jump', imageUrl: '/coloring-svg/truck2.svg' },
+  { id: '3', title: 'Big Wheel Truck', imageUrl: '/coloring-svg/truck3.svg' },
+  { id: '4', title: 'Racing Hot Wheels', imageUrl: '/coloring-svg/truck4.svg' },
+  { id: '5', title: 'Monster Jam', imageUrl: '/coloring-svg/truck5.svg' },
+  { id: '6', title: 'Cool Race Car', imageUrl: '/coloring-svg/truck6.svg' },
 ];
 
 export default function MonsterTrucksPage() {

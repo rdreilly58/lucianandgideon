@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="black" stroke-width="3">
+  <!-- Head -->
+  <circle cx="200" cy="80" r="30"/>
+  <!-- Mask -->
+  <ellipse cx="200" cy="80" rx="35" ry="12"/>
+  <!-- Eyes -->
+  <ellipse cx="190" cy="78" rx="6" ry="8" fill="black"/>
+  <ellipse cx="210" cy="78" rx="6" ry="8" fill="black"/>
+  <!-- Cape attach -->
+  <line x1="175" y1="110" x2="175" y2="115"/>
+  <line x1="225" y1="110" x2="225" y1="115"/>
+  <!-- Body/Suit -->
+  <rect x="175" y="110" width="50" height="70" rx="5"/>
+  <!-- Cape -->
+  <path d="M 175 115 L 140 240 L 175 180 Z"/>
+  <path d="M 225 115 L 260 240 L 225 180 Z"/>
+  <!-- Belt -->
+  <rect x="170" y="150" width="60" height="8"/>
+  <rect x="195" y="147" width="10" height="14" rx="2"/>
+  <!-- Arms (flexed!) -->
+  <path d="M 175 120 L 150 140 L 165 160" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 225 120 L 250 140 L 235 160" stroke-width="12" stroke-linecap="round"/>
+  <!-- Hands/Fists -->
+  <circle cx="165" cy="165" r="10"/>
+  <circle cx="235" cy="165" r="10"/>
+  <!-- Legs -->
+  <rect x="180" y="180" width="15" height="80" rx="3"/>
+  <rect x="205" y="180" width="15" height="80" rx="3"/>
+  <!-- Boots -->
+  <rect x="170" y="255" width="25" height="15" rx="2"/>
+  <rect x="205" y="255" width="25" height="15" rx="2"/>
+</svg>

@@ -1,15 +1,13 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
-const BASE_URL = 'https://lucianandgideon-coloring-pages.s3.us-east-1.amazonaws.com';
-
 const robotPages = [
-  { id: '1', title: 'Cool Robot', imageUrl: `${BASE_URL}/robots/robot-1.png` },
-  { id: '2', title: 'Robot Warrior', imageUrl: `${BASE_URL}/robots/robot-2.png` },
-  { id: '3', title: 'Flying Robot', imageUrl: `${BASE_URL}/robots/robot-3.png` },
-  { id: '4', title: 'Giant Robot', imageUrl: `${BASE_URL}/robots/robot-4.png` },
-  { id: '5', title: 'Space Robot', imageUrl: `${BASE_URL}/robots/robot-5.png` },
-  { id: '6', title: 'Cute Robot', imageUrl: `${BASE_URL}/robots/robot-6.png` },
+  { id: '1', title: 'Cool Robot', imageUrl: '/coloring-svg/robot1.svg' },
+  { id: '2', title: 'Robot Warrior', imageUrl: '/coloring-svg/robot2.svg' },
+  { id: '3', title: 'Flying Robot', imageUrl: '/coloring-svg/robot3.svg' },
+  { id: '4', title: 'Giant Robot', imageUrl: '/coloring-svg/robot4.svg' },
+  { id: '5', title: 'Space Robot', imageUrl: '/coloring-svg/robot5.svg' },
+  { id: '6', title: 'Cute Robot', imageUrl: '/coloring-svg/robot6.svg' },
 ];
 
 export default function RobotsPage() {

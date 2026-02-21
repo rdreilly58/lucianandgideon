@@ -1,15 +1,13 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
-const BASE_URL = 'https://lucianandgideon-coloring-pages.s3.us-east-1.amazonaws.com';
-
 const superheroPages = [
-  { id: '1', title: 'Superman', imageUrl: `${BASE_URL}/superheroes/hero-1.png` },
-  { id: '2', title: 'Batman', imageUrl: `${BASE_URL}/superheroes/hero-2.png` },
-  { id: '3', title: 'Spider-Man', imageUrl: `${BASE_URL}/superheroes/hero-3.png` },
-  { id: '4', title: 'Captain America', imageUrl: `${BASE_URL}/superheroes/hero-4.png` },
-  { id: '5', title: 'Iron Man', imageUrl: `${BASE_URL}/superheroes/hero-5.png` },
-  { id: '6', title: 'The Flash', imageUrl: `${BASE_URL}/superheroes/hero-6.png` },
+  { id: '1', title: 'Super Strength', imageUrl: '/coloring-svg/hero1.svg' },
+  { id: '2', title: 'Flying Hero', imageUrl: '/coloring-svg/hero2.svg' },
+  { id: '3', title: 'Web Slinger', imageUrl: '/coloring-svg/hero3.svg' },
+  { id: '4', title: 'Shield Hero', imageUrl: '/coloring-svg/hero4.svg' },
+  { id: '5', title: 'Armored Hero', imageUrl: '/coloring-svg/hero5.svg' },
+  { id: '6', title: 'Speed Hero', imageUrl: '/coloring-svg/hero6.svg' },
 ];
 
 export default function SuperheroesPage() {

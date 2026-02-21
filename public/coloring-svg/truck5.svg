@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="black" stroke-width="3">
+  <!-- Monster Truck Body -->
+  <rect x="100" y="120" width="200" height="60" rx="10"/>
+  <!-- Truck Cab -->
+  <polygon points="160,120 160,80 240,80 260,120"/>
+  <!-- Windows -->
+  <rect x="170" y="90" width="30" height="25" rx="3"/>
+  <rect x="210" y="90" width="40" height="25" rx="3"/>
+  <!-- Front Bumper -->
+  <rect x="85" y="170" width="20" height="15"/>
+  <!-- Back Bumper -->
+  <rect x="295" y="170" width="20" height="15"/>
+  <!-- Wheels (BIG!) -->
+  <circle cx="140" cy="200" r="45"/>
+  <circle cx="140" cy="200" r="25"/>
+  <circle cx="260" cy="200" r="45"/>
+  <circle cx="260" cy="200" r="25"/>
+  <!-- Wheel details -->
+  <line x1="120" y1="200" x2="160" y2="200"/>
+  <line x1="140" y1="180" x2="140" y2="220"/>
+  <line x1="240" y1="200" x2="280" y2="200"/>
+  <line x1="260" y1="180" x2="260" y2="220"/>
+  <!-- Details -->
+  <circle cx="280" cy="135" r="8"/>
+  <rect x="110" y="135" width="60" height="10" rx="2"/>
+</svg>

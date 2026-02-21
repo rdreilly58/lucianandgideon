@@ -1,15 +1,13 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
-const BASE_URL = 'https://lucianandgideon-coloring-pages.s3.us-east-1.amazonaws.com';
-
 const dinosaurPages = [
-  { id: '1', title: 'T-Rex Roar!', imageUrl: `${BASE_URL}/dinosaurs/dino-1.png` },
-  { id: '2', title: 'Triceratops', imageUrl: `${BASE_URL}/dinosaurs/dino-2.png` },
-  { id: '3', title: 'Stegosaurus', imageUrl: `${BASE_URL}/dinosaurs/dino-3.png` },
-  { id: '4', title: 'Brachiosaurus', imageUrl: `${BASE_URL}/dinosaurs/dino-4.png` },
-  { id: '5', title: 'Velociraptor', imageUrl: `${BASE_URL}/dinosaurs/dino-5.png` },
-  { id: '6', title: 'Pterodactyl Flying', imageUrl: `${BASE_URL}/dinosaurs/dino-6.png` },
+  { id: '1', title: 'T-Rex Roar!', imageUrl: '/coloring-svg/dino1.svg' },
+  { id: '2', title: 'Triceratops', imageUrl: '/coloring-svg/dino2.svg' },
+  { id: '3', title: 'Stegosaurus', imageUrl: '/coloring-svg/dino3.svg' },
+  { id: '4', title: 'Brachiosaurus', imageUrl: '/coloring-svg/dino4.svg' },
+  { id: '5', title: 'Velociraptor', imageUrl: '/coloring-svg/dino5.svg' },
+  { id: '6', title: 'Pterodactyl Flying', imageUrl: '/coloring-svg/dino6.svg' },
 ];
 
 export default function DinosaursPage() {
