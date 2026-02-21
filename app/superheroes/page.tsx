@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
+const BASE_URL = 'https://raw.githubusercontent.com/rdreilly58/lucianandgideon/main/public/coloring-pages';
+
 const superheroPages = [
-  { id: '1', title: 'Superman', imageUrl: '/coloring-pages/superheroes/hero-1.png' },
-  { id: '2', title: 'Batman', imageUrl: '/coloring-pages/superheroes/hero-2.png' },
-  { id: '3', title: 'Spider-Man', imageUrl: '/coloring-pages/superheroes/hero-3.png' },
-  { id: '4', title: 'Captain America', imageUrl: '/coloring-pages/superheroes/hero-4.png' },
-  { id: '5', title: 'Iron Man', imageUrl: '/coloring-pages/superheroes/hero-5.png' },
-  { id: '6', title: 'The Flash', imageUrl: '/coloring-pages/superheroes/hero-6.png' },
+  { id: '1', title: 'Superman', imageUrl: `${BASE_URL}/superheroes/hero-1.png` },
+  { id: '2', title: 'Batman', imageUrl: `${BASE_URL}/superheroes/hero-2.png` },
+  { id: '3', title: 'Spider-Man', imageUrl: `${BASE_URL}/superheroes/hero-3.png` },
+  { id: '4', title: 'Captain America', imageUrl: `${BASE_URL}/superheroes/hero-4.png` },
+  { id: '5', title: 'Iron Man', imageUrl: `${BASE_URL}/superheroes/hero-5.png` },
+  { id: '6', title: 'The Flash', imageUrl: `${BASE_URL}/superheroes/hero-6.png` },
 ];
 
 export default function SuperheroesPage() {

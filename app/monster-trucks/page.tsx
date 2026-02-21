@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
+const BASE_URL = 'https://raw.githubusercontent.com/rdreilly58/lucianandgideon/main/public/coloring-pages';
+
 const monsterTruckPages = [
-  { id: '1', title: 'Hot Wheels Racer', imageUrl: '/coloring-pages/monster-trucks/truck-1.png' },
-  { id: '2', title: 'Monster Truck Jump', imageUrl: '/coloring-pages/monster-trucks/truck-2.png' },
-  { id: '3', title: 'Big Wheel Truck', imageUrl: '/coloring-pages/monster-trucks/truck-3.png' },
-  { id: '4', title: 'Racing Hot Wheels', imageUrl: '/coloring-pages/monster-trucks/truck-4.png' },
-  { id: '5', title: 'Monster Jam', imageUrl: '/coloring-pages/monster-trucks/truck-5.png' },
-  { id: '6', title: 'Cool Race Car', imageUrl: '/coloring-pages/monster-trucks/truck-6.png' },
+  { id: '1', title: 'Hot Wheels Racer', imageUrl: `${BASE_URL}/monster-trucks/truck-1.png` },
+  { id: '2', title: 'Monster Truck Jump', imageUrl: `${BASE_URL}/monster-trucks/truck-2.png` },
+  { id: '3', title: 'Big Wheel Truck', imageUrl: `${BASE_URL}/monster-trucks/truck-3.png` },
+  { id: '4', title: 'Racing Hot Wheels', imageUrl: `${BASE_URL}/monster-trucks/truck-4.png` },
+  { id: '5', title: 'Monster Jam', imageUrl: `${BASE_URL}/monster-trucks/truck-5.png` },
+  { id: '6', title: 'Cool Race Car', imageUrl: `${BASE_URL}/monster-trucks/truck-6.png` },
 ];
 
 export default function MonsterTrucksPage() {

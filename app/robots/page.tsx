@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
+const BASE_URL = 'https://raw.githubusercontent.com/rdreilly58/lucianandgideon/main/public/coloring-pages';
+
 const robotPages = [
-  { id: '1', title: 'Cool Robot', imageUrl: '/coloring-pages/robots/robot-1.png' },
-  { id: '2', title: 'Robot Warrior', imageUrl: '/coloring-pages/robots/robot-2.png' },
-  { id: '3', title: 'Flying Robot', imageUrl: '/coloring-pages/robots/robot-3.png' },
-  { id: '4', title: 'Giant Robot', imageUrl: '/coloring-pages/robots/robot-4.png' },
-  { id: '5', title: 'Space Robot', imageUrl: '/coloring-pages/robots/robot-5.png' },
-  { id: '6', title: 'Cute Robot', imageUrl: '/coloring-pages/robots/robot-6.png' },
+  { id: '1', title: 'Cool Robot', imageUrl: `${BASE_URL}/robots/robot-1.png` },
+  { id: '2', title: 'Robot Warrior', imageUrl: `${BASE_URL}/robots/robot-2.png` },
+  { id: '3', title: 'Flying Robot', imageUrl: `${BASE_URL}/robots/robot-3.png` },
+  { id: '4', title: 'Giant Robot', imageUrl: `${BASE_URL}/robots/robot-4.png` },
+  { id: '5', title: 'Space Robot', imageUrl: `${BASE_URL}/robots/robot-5.png` },
+  { id: '6', title: 'Cute Robot', imageUrl: `${BASE_URL}/robots/robot-6.png` },
 ];
 
 export default function RobotsPage() {
