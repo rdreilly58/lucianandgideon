@@ -12,7 +12,7 @@ interface ColoringPage {
 interface ColoringGalleryProps {
   pages: ColoringPage[];
   category: string;
-  color: 'red' | 'green';
+  color: 'red' | 'green' | 'purple' | 'blue';
 }
 
 export default function ColoringGallery({ pages, category, color }: ColoringGalleryProps) {
@@ -47,8 +47,19 @@ export default function ColoringGallery({ pages, category, color }: ColoringGall
     }
   };
 
-  const borderColor = color === 'red' ? 'border-red-400' : 'border-green-400';
-  const buttonBg = color === 'red' ? 'bg-red-500 hover:bg-red-600' : 'bg-green-500 hover:bg-green-600';
+  const borderColor = {
+    red: 'border-red-400',
+    green: 'border-green-400',
+    purple: 'border-purple-400',
+    blue: 'border-blue-400',
+  }[color];
+  
+  const buttonBg = {
+    red: 'bg-red-500 hover:bg-red-600',
+    green: 'bg-green-500 hover:bg-green-600',
+    purple: 'bg-purple-500 hover:bg-purple-600',
+    blue: 'bg-blue-500 hover:bg-blue-600',
+  }[color];
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">

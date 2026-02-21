@@ -15,7 +15,7 @@ export default function Home() {
         </div>
 
         {/* Category Cards */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Monster Trucks Card */}
           <Link href="/monster-trucks">
             <div className="bg-red-500 rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform cursor-pointer border-8 border-yellow-400">
@@ -41,6 +41,36 @@ export default function Home() {
                 </h2>
                 <p className="text-xl text-orange-100 font-bold">
                   T-Rex, Triceratops & More!
+                </p>
+              </div>
+            </div>
+          </Link>
+
+          {/* Robots Card */}
+          <Link href="/robots">
+            <div className="bg-purple-500 rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform cursor-pointer border-8 border-pink-400">
+              <div className="text-center">
+                <div className="text-8xl mb-4">🤖⚡</div>
+                <h2 className="text-4xl md:text-5xl font-black text-white mb-3">
+                  ROBOTS
+                </h2>
+                <p className="text-xl text-pink-100 font-bold">
+                  Cool Robots & Machines!
+                </p>
+              </div>
+            </div>
+          </Link>
+
+          {/* Superheroes Card */}
+          <Link href="/superheroes">
+            <div className="bg-blue-600 rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform cursor-pointer border-8 border-red-400">
+              <div className="text-center">
+                <div className="text-8xl mb-4">🦸‍♂️⚡</div>
+                <h2 className="text-4xl md:text-5xl font-black text-white mb-3">
+                  SUPERHEROES
+                </h2>
+                <p className="text-xl text-red-100 font-bold">
+                  Batman, Superman & More!
                 </p>
               </div>
             </div>
