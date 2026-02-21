@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 interface ColoringPage {
   id: string;
   title: string;
@@ -69,13 +67,12 @@ export default function ColoringGallery({ pages, category, color }: ColoringGall
           className={`bg-white rounded-2xl p-4 shadow-xl hover:scale-105 transition-transform cursor-pointer border-4 ${borderColor}`}
           onClick={() => handlePrint(page.imageUrl, page.title)}
         >
-          <div className="aspect-square relative mb-3 bg-gray-100 rounded-lg overflow-hidden">
-            <Image
+          <div className="aspect-square relative mb-3 bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={page.thumbnail || page.imageUrl}
               alt={page.title}
-              fill
-              className="object-contain p-2"
-              sizes="(max-width: 768px) 50vw, 25vw"
+              className="max-w-full max-h-full object-contain p-2"
             />
           </div>
           <h3 className="text-center font-bold text-gray-800 text-sm md:text-base">
