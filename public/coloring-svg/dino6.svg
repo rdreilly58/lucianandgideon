@@ -1,85 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none" stroke="black" stroke-width="2.5">
-  <!-- T-Rex with details -->
-  
-  <!-- Tail -->
-  <path d="M 100 200 Q 60 180, 40 150 Q 35 140, 38 135" stroke-width="4" stroke-linecap="round"/>
-  <path d="M 100 200 Q 80 195, 65 185 Q 55 178, 48 168" stroke-width="3"/>
-  
+  <!-- Pterodactyl - flying -->
+  <text x="50" y="40" font-size="18" font-weight="bold" fill="black" stroke="none">Flying!</text>
   <!-- Body -->
-  <ellipse cx="220" cy="220" rx="90" ry="70" stroke-width="3"/>
-  
-  <!-- Belly texture -->
-  <path d="M 150 210 Q 170 220, 190 215" stroke-width="1.5"/>
-  <path d="M 155 230 Q 175 240, 195 235" stroke-width="1.5"/>
-  <path d="M 160 250 Q 180 260, 200 255" stroke-width="1.5"/>
-  
-  <!-- Neck -->
-  <ellipse cx="280" cy="180" rx="40" ry="45" stroke-width="3"/>
-  
-  <!-- Head -->
-  <ellipse cx="340" cy="160" rx="50" ry="45" stroke-width="3"/>
-  
-  <!-- Snout -->
-  <path d="M 380 155 L 420 165 L 415 180 L 380 175 Z" stroke-width="3"/>
-  
-  <!-- Nostril -->
-  <ellipse cx="408" cy="170" rx="4" ry="2"/>
-  
+  <ellipse cx="250" cy="150" rx="40" ry="30" stroke-width="3"/>
+  <!-- Head with crest -->
+  <ellipse cx="295" cy="135" rx="28" ry="25" stroke-width="3"/>
+  <path d="M 310 120 L 325 110 L 320 135 Z" stroke-width="2.5"/>
   <!-- Eye -->
-  <circle cx="360" cy="150" r="8" stroke-width="2"/>
-  <circle cx="362" cy="148" r="4" fill="black"/>
-  
-  <!-- Eyebrow ridge -->
-  <path d="M 350 142 Q 360 138, 375 142" stroke-width="2"/>
-  
-  <!-- Teeth on jaw -->
-  <line x1="395" y1="168" x2="395" y2="176" stroke-width="2"/>
-  <line x1="400" y1="170" x2="400" y2="178" stroke-width="2"/>
-  <line x1="405" y1="171" x2="405" y2="178" stroke-width="2"/>
-  <line x1="410" y1="172" x2="410" y2="178" stroke-width="2"/>
-  
-  <!-- Small arms -->
-  <path d="M 270 190 L 290 210 L 288 218" stroke-width="3" stroke-linecap="round"/>
-  <line x1="288" y1="218" x2="283" y2="222" stroke-width="2"/>
-  <line x1="288" y1="218" x2="293" y2="222" stroke-width="2"/>
-  
-  <path d="M 255 195 L 240 215 L 238 223" stroke-width="3" stroke-linecap="round"/>
-  <line x1="238" y1="223" x2="233" y2="227" stroke-width="2"/>
-  <line x1="238" y1="223" x2="243" y2="227" stroke-width="2"/>
-  
-  <!-- Back leg -->
-  <path d="M 190 260 L 170 330 L 155 340" stroke-width="4" stroke-linecap="round"/>
-  <line x1="155" y1="340" x2="140" y2="340" stroke-width="3"/>
-  <line x1="155" y1="340" x2="150" y2="347" stroke-width="3"/>
-  <line x1="155" y1="340" x2="160" y2="347" stroke-width="3"/>
-  <line x1="155" y1="340" x2="170" y2="345" stroke-width="3"/>
-  
-  <!-- Front leg -->
-  <path d="M 250 260 L 270 330 L 285 340" stroke-width="4" stroke-linecap="round"/>
-  <line x1="285" y1="340" x2="270" y2="340" stroke-width="3"/>
-  <line x1="285" y1="340" x2="280" y2="347" stroke-width="3"/>
-  <line x1="285" y1="340" x2="290" y2="347" stroke-width="3"/>
-  <line x1="285" y1="340" x2="300" y2="345" stroke-width="3"/>
-  
-  <!-- Knee details -->
-  <circle cx="175" cy="295" r="8"/>
-  <circle cx="268" cy="295" r="8"/>
-  
-  <!-- Back spikes -->
-  <polygon points="180,180 175,155 185,175" stroke-width="2"/>
-  <polygon points="200,175 195,145 205,170" stroke-width="2"/>
-  <polygon points="220,173 215,140 225,168" stroke-width="2"/>
-  <polygon points="240,175 235,145 245,170" stroke-width="2"/>
-  <polygon points="260,180 255,155 265,175" stroke-width="2"/>
-  
-  <!-- Texture lines on body -->
-  <path d="M 170 200 Q 180 195, 190 200" stroke-width="1.5"/>
-  <path d="M 180 185 Q 195 180, 210 185" stroke-width="1.5"/>
-  <path d="M 230 195 Q 240 190, 250 195" stroke-width="1.5"/>
-  
-  <!-- Scales on tail -->
-  <circle cx="75" cy="170" r="3"/>
-  <circle cx="85" cy="178" r="3"/>
-  <circle cx="95" cy="188" r="3"/>
-  <circle cx="55" cy="160" r="2.5"/>
+  <circle cx="305" cy="130" r="6"/>
+  <circle cx="307" cy="128" r="3" fill="black"/>
+  <!-- Beak -->
+  <path d="M 315 140 L 335 145 L 330 150 Z" stroke-width="2.5"/>
+  <!-- Wings spread -->
+  <path d="M 240 145 Q 180 120, 120 130 Q 100 135, 90 145" stroke-width="3"/>
+  <path d="M 260 145 Q 320 120, 380 130 Q 400 135, 410 145" stroke-width="3"/>
+  <!-- Wing details -->
+  <line x1="200" y1="135" x2="185" y2="155" stroke-width="2"/>
+  <line x1="170" y1="132" x2="155" y2="150" stroke-width="2"/>
+  <line x1="140" y1="133" x2="125" y2="155" stroke-width="2"/>
+  <line x1="300" y1="135" x2="315" y2="155" stroke-width="2"/>
+  <line x1="330" y1="132" x2="345" y2="150" stroke-width="2"/>
+  <line x1="360" y1="133" x2="375" y2="155" stroke-width="2"/>
+  <!-- Feet -->
+  <path d="M 245 175 L 240 200 L 235 210" stroke-width="2.5"/>
+  <path d="M 255 175 L 260 200 L 265 210" stroke-width="2.5"/>
+  <line x1="235" y1="210" x2="230" y2="215" stroke-width="2"/>
+  <line x1="235" y1="210" x2="240" y2="215" stroke-width="2"/>
 </svg>

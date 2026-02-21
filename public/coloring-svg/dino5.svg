@@ -1,85 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none" stroke="black" stroke-width="2.5">
-  <!-- T-Rex with details -->
-  
-  <!-- Tail -->
-  <path d="M 100 200 Q 60 180, 40 150 Q 35 140, 38 135" stroke-width="4" stroke-linecap="round"/>
-  <path d="M 100 200 Q 80 195, 65 185 Q 55 178, 48 168" stroke-width="3"/>
-  
-  <!-- Body -->
-  <ellipse cx="220" cy="220" rx="90" ry="70" stroke-width="3"/>
-  
-  <!-- Belly texture -->
-  <path d="M 150 210 Q 170 220, 190 215" stroke-width="1.5"/>
-  <path d="M 155 230 Q 175 240, 195 235" stroke-width="1.5"/>
-  <path d="M 160 250 Q 180 260, 200 255" stroke-width="1.5"/>
-  
-  <!-- Neck -->
-  <ellipse cx="280" cy="180" rx="40" ry="45" stroke-width="3"/>
-  
-  <!-- Head -->
-  <ellipse cx="340" cy="160" rx="50" ry="45" stroke-width="3"/>
-  
-  <!-- Snout -->
-  <path d="M 380 155 L 420 165 L 415 180 L 380 175 Z" stroke-width="3"/>
-  
-  <!-- Nostril -->
-  <ellipse cx="408" cy="170" rx="4" ry="2"/>
-  
-  <!-- Eye -->
-  <circle cx="360" cy="150" r="8" stroke-width="2"/>
-  <circle cx="362" cy="148" r="4" fill="black"/>
-  
-  <!-- Eyebrow ridge -->
-  <path d="M 350 142 Q 360 138, 375 142" stroke-width="2"/>
-  
-  <!-- Teeth on jaw -->
-  <line x1="395" y1="168" x2="395" y2="176" stroke-width="2"/>
-  <line x1="400" y1="170" x2="400" y2="178" stroke-width="2"/>
-  <line x1="405" y1="171" x2="405" y2="178" stroke-width="2"/>
-  <line x1="410" y1="172" x2="410" y2="178" stroke-width="2"/>
-  
+  <!-- Velociraptor - running pose -->
+  <ellipse cx="230" cy="200" rx="65" ry="50" stroke-width="3"/>
+  <ellipse cx="300" cy="170" rx="35" ry="30" stroke-width="3"/>
+  <circle cx="315" cy="165" r="7"/>
+  <circle cx="317" cy="163" r="3" fill="black"/>
+  <!-- Open mouth with teeth -->
+  <path d="M 330 170 L 360 175 L 355 185 L 330 180 Z" stroke-width="2.5"/>
+  <line x1="340" y1="176" x2="340" y2="182" stroke-width="2"/>
+  <line x1="345" y1="177" x2="345" y2="183" stroke-width="2"/>
+  <line x1="350" y1="178" x2="350" y2="183" stroke-width="2"/>
   <!-- Small arms -->
-  <path d="M 270 190 L 290 210 L 288 218" stroke-width="3" stroke-linecap="round"/>
-  <line x1="288" y1="218" x2="283" y2="222" stroke-width="2"/>
-  <line x1="288" y1="218" x2="293" y2="222" stroke-width="2"/>
-  
-  <path d="M 255 195 L 240 215 L 238 223" stroke-width="3" stroke-linecap="round"/>
-  <line x1="238" y1="223" x2="233" y2="227" stroke-width="2"/>
-  <line x1="238" y1="223" x2="243" y2="227" stroke-width="2"/>
-  
-  <!-- Back leg -->
-  <path d="M 190 260 L 170 330 L 155 340" stroke-width="4" stroke-linecap="round"/>
-  <line x1="155" y1="340" x2="140" y2="340" stroke-width="3"/>
-  <line x1="155" y1="340" x2="150" y2="347" stroke-width="3"/>
-  <line x1="155" y1="340" x2="160" y2="347" stroke-width="3"/>
-  <line x1="155" y1="340" x2="170" y2="345" stroke-width="3"/>
-  
-  <!-- Front leg -->
-  <path d="M 250 260 L 270 330 L 285 340" stroke-width="4" stroke-linecap="round"/>
-  <line x1="285" y1="340" x2="270" y2="340" stroke-width="3"/>
-  <line x1="285" y1="340" x2="280" y2="347" stroke-width="3"/>
-  <line x1="285" y1="340" x2="290" y2="347" stroke-width="3"/>
-  <line x1="285" y1="340" x2="300" y2="345" stroke-width="3"/>
-  
-  <!-- Knee details -->
-  <circle cx="175" cy="295" r="8"/>
-  <circle cx="268" cy="295" r="8"/>
-  
-  <!-- Back spikes -->
-  <polygon points="180,180 175,155 185,175" stroke-width="2"/>
-  <polygon points="200,175 195,145 205,170" stroke-width="2"/>
-  <polygon points="220,173 215,140 225,168" stroke-width="2"/>
-  <polygon points="240,175 235,145 245,170" stroke-width="2"/>
-  <polygon points="260,180 255,155 265,175" stroke-width="2"/>
-  
-  <!-- Texture lines on body -->
-  <path d="M 170 200 Q 180 195, 190 200" stroke-width="1.5"/>
-  <path d="M 180 185 Q 195 180, 210 185" stroke-width="1.5"/>
-  <path d="M 230 195 Q 240 190, 250 195" stroke-width="1.5"/>
-  
-  <!-- Scales on tail -->
-  <circle cx="75" cy="170" r="3"/>
-  <circle cx="85" cy="178" r="3"/>
-  <circle cx="95" cy="188" r="3"/>
-  <circle cx="55" cy="160" r="2.5"/>
+  <path d="M 280" y1="185" L 295 205 L 293 213" stroke-width="3"/>
+  <line x1="293" y1="213" x2="288" y2="217" stroke-width="2"/>
+  <line x1="293" y1="213" x2="298" y2="217" stroke-width="2"/>
+  <!-- Running legs -->
+  <path d="M 220 230 L 210 280 L 200 300" stroke-width="4"/>
+  <line x1="200" y1="300" x2="190" y2="305" stroke-width="3"/>
+  <line x1="200" y1="300" x2="195" y2="310" stroke-width="3"/>
+  <path d="M 245 235 L 260 270 L 270 290" stroke-width="4"/>
+  <line x1="270" y1="290" x2="275" y2="295" stroke-width="3"/>
+  <!-- Big claw on foot -->
+  <path d="M 270 290 L 275 285 L 280 295" stroke-width="3"/>
+  <!-- Tail for balance -->
+  <path d="M 170 190 Q 110 180, 70 165" stroke-width="4"/>
 </svg>
