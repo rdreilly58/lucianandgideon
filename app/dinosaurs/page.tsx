@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
-const BASE_URL = 'https://raw.githubusercontent.com/rdreilly58/lucianandgideon/main/public/coloring-pages';
+const BASE_URL = 'https://lucianandgideon-coloring-pages.s3.us-east-1.amazonaws.com';
 
 const dinosaurPages = [
   { id: '1', title: 'T-Rex Roar!', imageUrl: `${BASE_URL}/dinosaurs/dino-1.png` },
