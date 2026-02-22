@@ -2,12 +2,21 @@ import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
 const robotPages = [
-  { id: '1', title: 'Cool Robot', imageUrl: '/coloring-svg/robot1.svg' },
-  { id: '2', title: 'Robot Warrior', imageUrl: '/coloring-svg/robot2.svg' },
-  { id: '3', title: 'Flying Robot', imageUrl: '/coloring-svg/robot3.svg' },
-  { id: '4', title: 'Giant Robot', imageUrl: '/coloring-svg/robot4.svg' },
-  { id: '5', title: 'Space Robot', imageUrl: '/coloring-svg/robot5.svg' },
-  { id: '6', title: 'Cute Robot', imageUrl: '/coloring-svg/robot6.svg' },
+  { id: '1',  title: 'Optimus Prime',    imageUrl: '/coloring-pages/robots/robot-01.png', thumbnail: '/coloring-pages/robots/thumbs/robot-01.png' },
+  { id: '2',  title: 'Bumblebee',        imageUrl: '/coloring-pages/robots/robot-02.png', thumbnail: '/coloring-pages/robots/thumbs/robot-02.png' },
+  { id: '3',  title: 'Megatron',         imageUrl: '/coloring-pages/robots/robot-03.png', thumbnail: '/coloring-pages/robots/thumbs/robot-03.png' },
+  { id: '4',  title: 'Starscream',       imageUrl: '/coloring-pages/robots/robot-04.png', thumbnail: '/coloring-pages/robots/thumbs/robot-04.png' },
+  { id: '5',  title: 'Ironhide',         imageUrl: '/coloring-pages/robots/robot-05.png', thumbnail: '/coloring-pages/robots/thumbs/robot-05.png' },
+  { id: '6',  title: 'Jazz',             imageUrl: '/coloring-pages/robots/robot-06.png', thumbnail: '/coloring-pages/robots/thumbs/robot-06.png' },
+  { id: '7',  title: 'Soundwave',        imageUrl: '/coloring-pages/robots/robot-07.png', thumbnail: '/coloring-pages/robots/thumbs/robot-07.png' },
+  { id: '8',  title: 'Grimlock',         imageUrl: '/coloring-pages/robots/robot-08.png', thumbnail: '/coloring-pages/robots/thumbs/robot-08.png' },
+  { id: '9',  title: 'Ratchet',          imageUrl: '/coloring-pages/robots/robot-09.png', thumbnail: '/coloring-pages/robots/thumbs/robot-09.png' },
+  { id: '10', title: 'Shockwave',        imageUrl: '/coloring-pages/robots/robot-10.png', thumbnail: '/coloring-pages/robots/thumbs/robot-10.png' },
+  { id: '11', title: 'Hot Rod',          imageUrl: '/coloring-pages/robots/robot-11.png', thumbnail: '/coloring-pages/robots/thumbs/robot-11.png' },
+  { id: '12', title: 'Wheeljack',        imageUrl: '/coloring-pages/robots/robot-12.png', thumbnail: '/coloring-pages/robots/thumbs/robot-12.png' },
+  { id: '13', title: 'Devastator',       imageUrl: '/coloring-pages/robots/robot-13.png', thumbnail: '/coloring-pages/robots/thumbs/robot-13.png' },
+  { id: '14', title: 'Sideswipe',        imageUrl: '/coloring-pages/robots/robot-14.png', thumbnail: '/coloring-pages/robots/thumbs/robot-14.png' },
+  { id: '15', title: 'Skywarp',          imageUrl: '/coloring-pages/robots/robot-15.png', thumbnail: '/coloring-pages/robots/thumbs/robot-15.png' },
 ];
 
 export default function RobotsPage() {
