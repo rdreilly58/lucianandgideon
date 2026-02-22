@@ -2,12 +2,26 @@ import Link from 'next/link';
 import ColoringGallery from '@/components/ColoringGallery';
 
 const monsterTruckPages = [
-  { id: '1', title: 'Hot Wheels Racer', imageUrl: '/coloring-svg/truck1.svg' },
-  { id: '2', title: 'Monster Truck Jump', imageUrl: '/coloring-svg/truck2.svg' },
-  { id: '3', title: 'Big Wheel Truck', imageUrl: '/coloring-svg/truck3.svg' },
-  { id: '4', title: 'Racing Hot Wheels', imageUrl: '/coloring-svg/truck4.svg' },
-  { id: '5', title: 'Monster Jam', imageUrl: '/coloring-svg/truck5.svg' },
-  { id: '6', title: 'Cool Race Car', imageUrl: '/coloring-svg/truck6.svg' },
+  { id: '1',  title: 'Crusher King',       imageUrl: '/coloring-pages/monster-trucks/truck-01.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-01.png' },
+  { id: '2',  title: 'Big Air Jump',        imageUrl: '/coloring-pages/monster-trucks/truck-02.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-02.png' },
+  { id: '3',  title: 'Ramp Rider',          imageUrl: '/coloring-pages/monster-trucks/truck-03.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-03.png' },
+  { id: '4',  title: 'Spike Smash',         imageUrl: '/coloring-pages/monster-trucks/truck-04.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-04.png' },
+  { id: '5',  title: 'Thunder Wheels',      imageUrl: '/coloring-pages/monster-trucks/truck-05.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-05.png' },
+  { id: '6',  title: 'Dirt Destroyer',      imageUrl: '/coloring-pages/monster-trucks/truck-06.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-06.png' },
+  { id: '7',  title: 'Mega Mudder',         imageUrl: '/coloring-pages/monster-trucks/truck-07.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-07.png' },
+  { id: '8',  title: 'Flame Blaster',       imageUrl: '/coloring-pages/monster-trucks/truck-08.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-08.png' },
+  { id: '9',  title: 'Iron Beast',          imageUrl: '/coloring-pages/monster-trucks/truck-09.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-09.png' },
+  { id: '10', title: 'Rock Climber',        imageUrl: '/coloring-pages/monster-trucks/truck-10.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-10.png' },
+  { id: '11', title: 'Turbo Titan',         imageUrl: '/coloring-pages/monster-trucks/truck-11.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-11.png' },
+  { id: '12', title: 'Gravel Gobbler',      imageUrl: '/coloring-pages/monster-trucks/truck-12.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-12.png' },
+  { id: '13', title: 'Super Stomper',       imageUrl: '/coloring-pages/monster-trucks/truck-13.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-13.png' },
+  { id: '14', title: 'Nitro Nightmare',     imageUrl: '/coloring-pages/monster-trucks/truck-14.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-14.png' },
+  { id: '15', title: 'Mud Maniac',          imageUrl: '/coloring-pages/monster-trucks/truck-15.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-15.png' },
+  { id: '16', title: 'Wrecking Ball',       imageUrl: '/coloring-pages/monster-trucks/truck-16.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-16.png' },
+  { id: '17', title: 'Rumble Runner',       imageUrl: '/coloring-pages/monster-trucks/truck-17.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-17.png' },
+  { id: '18', title: 'Steel Stampede',      imageUrl: '/coloring-pages/monster-trucks/truck-18.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-18.png' },
+  { id: '19', title: 'Blaze Crusher',       imageUrl: '/coloring-pages/monster-trucks/truck-19.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-19.png' },
+  { id: '20', title: 'Ultimate Monster',    imageUrl: '/coloring-pages/monster-trucks/truck-20.png', thumbnail: '/coloring-pages/monster-trucks/thumbs/truck-20.png' },
 ];
 
 export default function MonsterTrucksPage() {
