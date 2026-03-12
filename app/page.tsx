@@ -7,7 +7,7 @@ export default function Home() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-6xl md:text-8xl font-black text-white drop-shadow-lg mb-4 animate-bounce">
-            🎨 Lucian & Gideon's Coloring Fun! 🎨
+            🎨 Lucian & Gideon's Coloring Fun 🎨
           </h1>
           <p className="text-2xl md:text-3xl font-bold text-white drop-shadow-md">
             Pick a picture and print it out!
